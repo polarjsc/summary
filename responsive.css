@@ -1,0 +1,76 @@
+@media (max-width: 768px){
+    .container{
+        display: flex;
+        width: 100%;
+        height: 350px;
+        margin: 0px;
+        padding: 0px;
+        flex-direction: column;
+        box-shadow: none;
+    }
+    .contanier1{
+        display: flex;
+        width: 100%;
+        border-radius: 0px 0px 40px 40px;
+    }
+    #subgreat{
+        text-align: center;
+        width: 240px;
+    }
+    .circle{
+        margin-left:35px ;
+    }
+    .container2{
+        border-radius: 0px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    #title1{
+        display: flex;
+        margin-top:10px ;
+        margin-left: -230px ;
+        margin-bottom: 10px;
+    }
+    .reaction{
+        display: flex;
+        width: 340px;
+        margin-left: 0px;
+        height: 80px;
+        font-size: 18px;
+    }
+    .txtazul{
+        margin-left: 130px;
+    }
+    .memory{
+        display: flex;
+        width: 340px;
+        margin-left: 0px;
+        height: 80px;
+        font-size: 18px;
+    }
+    .verbal{
+        display: flex;
+        width: 340px;
+        margin-left: 0px;
+        height: 80px;
+        font-size: 18px;
+    }
+    .visual{
+        display: flex;
+        width: 340px;
+        margin-left: 0px;
+        height: 80px;
+        font-size: 18px;
+    }
+    .continue{
+        display: flex;
+        width: 300px;
+        padding:20px;
+        margin-left: 0px;
+        height: 10px;
+        font-size: 18px;
+    }
+}

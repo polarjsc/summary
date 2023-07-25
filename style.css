@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font: normal 15pt arial;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    box-shadow: 0.1px 0.1px 20px 0px hsl(241, 100%, 89%);
+    border-radius: 11%;
+    margin-left: 30%;
+    margin-top: 13%;
+    width: 550px;
+    height: 380px;
+}
+
+.contanier1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    border-radius: 11%;
+    background-color: hsl(241, 81%, 54%);
+}
+
+.contanier1 h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 19px;
+    color: hsl(234, 100%, 75%);
+}
+
+.circle {
+    position: relative;
+    top: 10px;
+    left: 23%;
+    background-image: linear-gradient(to bottom, rgb(70, 24, 196), hsla(241, 72%, 46%, 0.925), hsla(241, 72%, 46%, 1), hsl(241, 81%, 54%));
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.circle #big {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 50px;
+}
+
+.circle #sbig {
+    color: hsl(234, 54%, 63%);
+    display: flex;
+    font-size: 15px;
+    margin-top: -50px;
+    justify-content: center;
+
+}
+
+#great {
+    font-size: 25px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+#subgreat {
+    display: flex;
+    margin: auto;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 30px;
+    color: rgb(178, 178, 248);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container2{
+    border-radius: 0% 12% 12% 0%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 98%;
+    margin: -380px;
+    margin-left: 274px;
+    background-color: rgb(255, 255, 255);
+}
+
+#title1 {
+    color: rgba(0, 0, 0, 0.781);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.reaction img {
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.reaction {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 13px;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.103);
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.txtazul {
+    margin-left: 30px;
+    color: black;
+}
+
+.txtcinza {
+    color: gray;
+}
+.memory img{
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 20px;
+}
+.memory {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 13px;
+    color: rgb(208, 255, 0);
+    background-color: rgba(255, 251, 0, 0.103);
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.txtazul {
+    margin-left: 30px;
+    color: black;
+}
+
+.txtcinza {
+    color: gray;
+}
+.verbal img{
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 20px;
+}
+.verbal {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 13px;
+    color: rgb(0, 255, 42);
+    background-color: rgba(0, 255, 34, 0.103);
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.visual img{
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 20px;
+}
+.visual {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 13px;
+    color: rgb(0, 17, 255);
+    background-color: rgba(0, 4, 255, 0.103);
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.continue{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: hsl(224, 30%, 27%);
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
